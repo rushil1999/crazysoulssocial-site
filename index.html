@@ -261,6 +261,21 @@
     border:1px dashed var(--line-strong);padding:22px;max-width:none;
   }
   .words .foot{margin-top:26px;font-size:.88rem;color:var(--muted);max-width:50ch}
+  .said-lead{
+    font-family:var(--display);font-size:clamp(1.2rem,3vw,1.55rem);
+    line-height:1.45;max-width:44ch;margin-top:22px;
+  }
+  .themes{margin-top:42px;border-top:1px solid var(--line)}
+  .theme{
+    display:grid;grid-template-columns:210px 1fr;gap:28px;align-items:baseline;
+    padding-block:26px;border-bottom:1px solid var(--line);min-width:0;
+  }
+  .theme .t-head{
+    font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;
+    color:var(--brass);font-weight:500;
+  }
+  .theme p{color:var(--muted);font-size:1rem;max-width:48ch}
+  @media (max-width:620px){.theme{grid-template-columns:1fr;gap:9px;padding-block:22px}}
 
   /* ---------- questions ---------- */
   .qs{margin-top:38px;border-top:1px solid var(--line)}
@@ -456,25 +471,36 @@
     <span class="label">In their words</span>
     <h2 style="margin-top:16px">What guests said afterwards</h2>
 
-    <div class="quotes">
-      <!-- QUOTE SLOT ×3
-           After each event, email guests one line: "Anything you'd want a
-           future guest to know?" Paste real replies here, unattributed.
-           Replace an empty block with:
+    <p class="said-lead">We asked everyone how the San Jose evening went. Three things came back again and again.</p>
 
-           <blockquote>
-             <p>Their actual words, pasted exactly.</p>
-             <cite>Guest · San Jose, October</cite>
-           </blockquote>
-
-           Delete any slots you have not filled yet — three real lines beat
-           six placeholders, and one real line beats three invented ones. -->
-      <blockquote class="empty"><p>Awaiting the first</p></blockquote>
-      <blockquote class="empty"><p>Awaiting the first</p></blockquote>
-      <blockquote class="empty"><p>Awaiting the first</p></blockquote>
+    <div class="themes">
+      <div class="theme">
+        <span class="t-head">It wasn't random</span>
+        <p>The comparison guests kept drawing was with mixers where you are left to your own devices in a crowded room. Being walked over to someone, with a reason, was the difference they noticed.</p>
+      </div>
+      <div class="theme">
+        <span class="t-head">The conversations went somewhere</span>
+        <p>Not small talk and not an interview. People told us they met others they genuinely connected with, and that the conversations were worth having on their own terms.</p>
+      </div>
+      <div class="theme">
+        <span class="t-head">They want the next one</span>
+        <p>The most common response by some distance was asking when we are doing it again, and whether they can bring a friend.</p>
+      </div>
     </div>
 
-    <p class="foot">We ask every guest for a line after the evening and publish them unedited and unattributed. Nobody is named, and nothing is written by us.</p>
+    <!-- QUOTE SLOT — when you have guests' own words, put them here, below the
+         themes above, and add this line back to the foot paragraph:
+         "Their words, unedited and unattributed."
+
+         <blockquote>
+           <p>Their actual words, pasted exactly as written.</p>
+           <cite>Guest · San Jose, October</cite>
+         </blockquote>
+
+         One real line beats three written for them. Ask by email after the
+         next event: "Anything you'd want a future guest to know?" -->
+
+    <p class="foot">A summary of what guests told us after the last evening, in our words. We are collecting theirs for next time.</p>
   </div>
 </section>
 
