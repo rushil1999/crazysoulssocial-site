@@ -49,8 +49,8 @@
     color:var(--fg);
     font-family:var(--body);
     font-weight:300;
-    font-size:17px;
-    line-height:1.7;
+    font-size:19px;
+    line-height:1.68;
     -webkit-font-smoothing:antialiased;
   }
 
@@ -76,7 +76,7 @@
     display:block;
     font-family:var(--body);
     font-weight:500;
-    font-size:.68rem;
+    font-size:.74rem;
     letter-spacing:.3em;
     text-transform:uppercase;
     color:var(--brass);
@@ -117,11 +117,11 @@
   .hero h1{margin-block:26px 0}
   .hero h1 .line2{display:block;font-style:italic;color:var(--brass)}
   .hero .rule{margin-block:38px 32px}
-  .hero .lede{font-size:clamp(1.1rem,2.6vw,1.34rem);line-height:1.6;max-width:38ch}
+  .hero .lede{font-size:clamp(1.22rem,3vw,1.55rem);line-height:1.52;max-width:36ch}
 
   .links{display:flex;flex-wrap:wrap;gap:30px;margin-top:40px;align-items:center}
   .link{
-    font-size:.95rem;font-weight:400;color:var(--fg);text-decoration:none;
+    font-size:1.02rem;font-weight:400;color:var(--fg);text-decoration:none;
     padding-bottom:5px;border-bottom:1px solid var(--line-strong);
     transition:color .3s ease,border-color .3s ease;
   }
@@ -131,8 +131,8 @@
   .link.brass:hover{color:var(--fg);border-color:var(--fg)}
 
   /* ---------- why ---------- */
-  .why .lead{font-size:clamp(1.18rem,3vw,1.5rem);line-height:1.5;max-width:40ch;font-family:var(--display)}
-  .why .body{margin-top:26px;max-width:52ch;color:var(--muted)}
+  .why .lead{font-size:clamp(1.35rem,3.6vw,1.85rem);line-height:1.4;max-width:38ch;font-family:var(--display)}
+  .why .body{margin-top:26px;max-width:50ch;color:var(--muted);font-size:1.07rem}
   .contrast{margin-top:48px;border-top:1px solid var(--line)}
   .vs{
     display:grid;grid-template-columns:1fr 1fr;gap:30px;
@@ -140,12 +140,12 @@
   }
   .vs > div{min-width:0}
   .vs .head{
-    font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;
+    font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;
     font-weight:500;margin-bottom:12px;
   }
   .vs .them .head{color:var(--muted)}
   .vs .us .head{color:var(--brass)}
-  .vs p{font-size:1rem;line-height:1.6}
+  .vs p{font-size:1.08rem;line-height:1.6}
   .vs .them p{color:var(--muted)}
   @media (max-width:620px){.vs{grid-template-columns:1fr;gap:22px}}
 
@@ -158,14 +158,14 @@
     display:grid;grid-template-columns:150px 1fr;gap:20px;align-items:baseline;
     padding-block:20px;border-bottom:1px solid var(--line);
   }
-  .detail dt{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:500}
-  .detail dd{margin:0;font-size:1.08rem;font-weight:400;font-variant-numeric:tabular-nums;min-width:0}
-  .detail dd .fine{display:block;font-size:.86rem;color:var(--muted);margin-top:3px}
+  .detail dt{font-size:.8rem;letter-spacing:.2em;text-transform:uppercase;color:var(--muted);font-weight:500}
+  .detail dd{margin:0;font-size:1.18rem;font-weight:400;font-variant-numeric:tabular-nums;min-width:0}
+  .detail dd .fine{display:block;font-size:.95rem;color:var(--muted);margin-top:3px}
   .detail .brass-fig{font-family:var(--display);font-size:1.9rem;color:var(--brass);line-height:1}
   @media (max-width:560px){
     .detail{grid-template-columns:1fr;gap:5px;padding-block:18px}
   }
-  .invite .foot{margin-top:28px;font-size:.92rem;color:var(--muted);max-width:48ch}
+  .invite .foot{margin-top:28px;font-size:1.03rem;color:var(--muted);max-width:48ch}
 
   /* ---------- gallery ---------- */
   .feature{margin-top:38px}
@@ -214,13 +214,13 @@
     transition:border-color .5s ease,background .5s ease,color .5s ease;
   }
   .ev-step:hover .bead{border-color:var(--brass)}
-  .ev-step h3{font-size:clamp(1.3rem,3.2vw,1.65rem);line-height:1.2}
-  .ev-step p{color:var(--muted);margin-top:11px;font-size:1.01rem;max-width:46ch}
+  .ev-step h3{font-size:clamp(1.42rem,3.6vw,1.85rem);line-height:1.18}
+  .ev-step p{color:var(--muted);margin-top:12px;font-size:1.1rem;max-width:44ch}
   .ev-step.key .bead{background:var(--brass);border-color:var(--brass);color:#120E0A}
   .ev-step.key h3{color:var(--brass)}
   .ev-tag{
-    display:block;font-size:.63rem;letter-spacing:.28em;text-transform:uppercase;
-    color:var(--brass);font-weight:500;margin-bottom:9px;
+    display:block;font-size:.7rem;letter-spacing:.26em;text-transform:uppercase;
+    color:var(--brass);font-weight:500;margin-bottom:10px;
   }
   @media (max-width:560px){
     .evening::before{left:17px}
@@ -237,7 +237,7 @@
     font-size:clamp(1.15rem,2.8vw,1.4rem);line-height:1.45;
   }
   .not-this .after{
-    font-family:var(--body);font-style:normal;font-size:.99rem;
+    font-family:var(--body);font-style:normal;font-size:1.07rem;
     color:var(--muted);margin-top:16px;
   }
 
@@ -260,7 +260,7 @@
     letter-spacing:.16em;text-transform:uppercase;line-height:2;
     border:1px dashed var(--line-strong);padding:22px;max-width:none;
   }
-  .words .foot{margin-top:26px;font-size:.88rem;color:var(--muted);max-width:50ch}
+  .words .foot{margin-top:26px;font-size:.97rem;color:var(--muted);max-width:50ch}
   .said-lead{
     font-family:var(--display);font-size:clamp(1.2rem,3vw,1.55rem);
     line-height:1.45;max-width:44ch;margin-top:22px;
@@ -271,10 +271,10 @@
     padding-block:26px;border-bottom:1px solid var(--line);min-width:0;
   }
   .theme .t-head{
-    font-size:.68rem;letter-spacing:.24em;text-transform:uppercase;
+    font-size:.74rem;letter-spacing:.22em;text-transform:uppercase;
     color:var(--brass);font-weight:500;
   }
-  .theme p{color:var(--muted);font-size:1rem;max-width:48ch}
+  .theme p{color:var(--muted);font-size:1.08rem;max-width:48ch}
   @media (max-width:620px){.theme{grid-template-columns:1fr;gap:9px;padding-block:22px}}
 
   /* ---------- questions ---------- */
@@ -282,7 +282,7 @@
   details{border-bottom:1px solid var(--line)}
   summary{
     cursor:pointer;list-style:none;padding-block:22px;
-    font-family:var(--display);font-size:1.22rem;
+    font-family:var(--display);font-size:1.35rem;
     display:flex;justify-content:space-between;gap:24px;align-items:baseline;
     transition:color .3s ease;
   }
@@ -291,7 +291,7 @@
   summary::after{content:"＋";color:var(--brass);font-size:.9rem;flex:none;font-family:var(--body)}
   details[open] summary::after{content:"—";font-size:.8rem}
   summary:focus-visible{outline:1px solid var(--brass);outline-offset:3px}
-  details p{padding-bottom:26px;color:var(--muted);max-width:54ch;font-size:.97rem}
+  details p{padding-bottom:26px;color:var(--muted);max-width:52ch;font-size:1.06rem}
 
   /* ---------- request ---------- */
   .request{position:relative;overflow:hidden}
@@ -321,19 +321,19 @@
     justify-content:space-between;align-items:baseline;
   }
   .mark{font-family:var(--display);font-size:1.15rem;letter-spacing:.01em}
-  footer a{color:var(--muted);text-decoration:none;font-size:.9rem;transition:color .3s ease}
+  footer a{color:var(--muted);text-decoration:none;font-size:.97rem;transition:color .3s ease}
   footer a:hover{color:var(--brass)}
-  .fine-print{color:var(--muted);font-size:.8rem;letter-spacing:.04em}
+  .fine-print{color:var(--muted);font-size:.88rem;letter-spacing:.04em}
 </style>
 
 <!-- ========================= HERO ========================= -->
 <section class="hero">
   <div class="glow" aria-hidden="true"></div>
   <div class="wrap">
-    <span class="label rise" style="--d:.1s">Bay Area · By invitation</span>
+    <span class="label rise" style="--d:.1s">San Francisco · An exclusive evening</span>
     <h1 class="settle">Crazy Souls<span class="line2">Social</span></h1>
     <hr class="rule drawn" style="--d:.9s">
-    <p class="lede rise" style="--d:1.05s">A short guest list, one good room, and introductions made for you — so the evening starts somewhere better than small talk.</p>
+    <p class="lede rise" style="--d:1.05s">An invitation-only evening where you are introduced, by name, to the people worth meeting — so the night starts somewhere better than small talk.</p>
     <div class="links rise" style="--d:1.2s">
       <!-- EDIT: paste your Eventbrite link in href -->
       <a class="link brass" href="#evening">The next evening</a>
@@ -349,7 +349,7 @@
   <div class="wrap">
     <span class="label">Why we started this</span>
     <p class="lead" style="margin-top:22px">Meeting someone in the Bay Area has quietly become the hardest easy thing there is.</p>
-    <p class="body">Everyone is on the apps and nobody is enjoying them. The alternative is a loud bar on a Friday and the hope that something happens on its own, which it rarely does. We wanted a third option: a small room, a short guest list, and an evening where the awkward part has already been handled for you.</p>
+    <p class="body">Everyone is on the apps and nobody is enjoying them. The alternative is a loud bar on a Friday and the hope that something happens on its own, which it rarely does. We wanted a third option: an evening you are invited to rather than one you turn up at, where the awkward part has already been handled for you.</p>
 
     <div class="contrast">
       <div class="vs">
@@ -369,12 +369,53 @@
         </div>
         <div class="us">
           <span class="head">An evening with us</span>
-          <p>A short guest list, held evenly, so the room stays balanced and you are never working a crowd.</p>
+          <p>Guests are invited and the room is held evenly, so it stays balanced and you are never working a crowd.</p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<hr class="rule">
+
+<!-- ========================= THE EVENING ========================= -->
+<section>
+  <div class="wrap close">
+    <span class="label">What makes it different</span>
+    <h2 style="margin-top:16px">How an evening runs</h2>
+    <p class="why body" style="margin-top:20px">Every other mixer in this city hands you a name tag and wishes you luck. Ours runs to a shape, and the shape is the reason people come back.</p>
+    <ol class="evening">
+      <li class="ev-step">
+        <span class="bead">i</span>
+        <h3>You arrive</h3>
+        <p>Doors open, the bar is open, and there is no rush. Come when it suits you.</p>
+      </li>
+      <li class="ev-step">
+        <span class="bead">ii</span>
+        <h3>You tell us a little about yourself</h3>
+        <p>A couple of minutes, in your own words — what you are into, and the sort of person you would actually like to meet. Nothing formal, and nobody sees it but us.</p>
+      </li>
+      <li class="ev-step">
+        <span class="bead">iii</span>
+        <h3>You settle in</h3>
+        <p>Have a drink, talk to whoever you like, let the room fill up. In the background we are working out who ought to meet whom.</p>
+      </li>
+      <li class="ev-step key">
+        <span class="bead">iv</span>
+        <span class="ev-tag">The part that matters</span>
+        <h3>We introduce you, by name</h3>
+        <p>Three or four introductions over the evening, each one chosen for you. We bring you across, tell you both why we thought you should meet, and then leave you to it.</p>
+      </li>
+    </ol>
+
+    <div class="not-this">
+      <p>This is not speed dating, and it is not a room of strangers in name tags.</p>
+      <p class="after">Nothing runs on a timer, nobody rotates, and you never repeat your opening line to the whole room. The introductions are what you are paying for — the rest is a good bar on a good evening.</p>
+    </div>
+  </div>
+</section>
+
+<hr class="rule">
 
 <!-- ========================= DETAIL STRIP ========================= -->
 <div class="atmos">
@@ -386,17 +427,17 @@
 <!-- ========================= INVITATION ========================= -->
 <section class="invite" id="evening">
   <div class="wrap">
-    <span class="label">Up next</span>
+    <span class="label">The next evening</span>
     <h2>San Francisco</h2>
     <dl class="details">
       <!-- EDIT: fill these in once the venue confirms -->
       <div class="detail"><dt>Evening</dt><dd>To be announced</dd></div>
       <div class="detail"><dt>Hours</dt><dd>6.30 until 9.30</dd></div>
-      <div class="detail"><dt>Quarter</dt><dd>SoMa<span class="fine">The address goes to guests the week of.</span></dd></div>
-      <div class="detail"><dt>Seats</dt><dd>A short list<span class="fine">Kept small, and held evenly.</span></dd></div>
-      <div class="detail"><dt>Reserving</dt><dd>By request<span class="fine">You tell us a little about yourself on the night. That is what the introductions are built from.</span></dd></div>
+      <div class="detail"><dt>Where</dt><dd>San Francisco<span class="fine">The venue and address go to guests ahead of the evening.</span></dd></div>
+      <div class="detail"><dt>Admission</dt><dd>By invitation<span class="fine">Requested through the list below, and confirmed by us.</span></dd></div>
+      <div class="detail"><dt>On the night</dt><dd>You tell us about yourself<span class="fine">A couple of minutes, in your own words. That is what the introductions are built from.</span></dd></div>
     </dl>
-    <p class="foot">We keep these small on purpose. When the seats are gone they are gone, and the next one is a month out.</p>
+    <p class="foot">These are kept deliberately small and they do not run often. When an evening is full it is full, and the next one is some way off.</p>
   </div>
 </section>
 
@@ -428,42 +469,6 @@
 </section>
 
 <hr class="rule">
-
-<!-- ========================= THE EVENING ========================= -->
-<section>
-  <div class="wrap close">
-    <span class="label">The shape of it</span>
-    <h2 style="margin-top:16px">How an evening runs</h2>
-    <ol class="evening">
-      <li class="ev-step">
-        <span class="bead">i</span>
-        <h3>You arrive</h3>
-        <p>Doors open, the bar is open, and there is no rush. Come when it suits you.</p>
-      </li>
-      <li class="ev-step">
-        <span class="bead">ii</span>
-        <h3>You tell us a little about yourself</h3>
-        <p>A couple of minutes, in your own words — what you are into, and the sort of person you would actually like to meet. Nothing formal, and nobody sees it but us.</p>
-      </li>
-      <li class="ev-step">
-        <span class="bead">iii</span>
-        <h3>You settle in</h3>
-        <p>Have a drink, talk to whoever you like, let the room fill up. In the background we are working out who ought to meet whom.</p>
-      </li>
-      <li class="ev-step key">
-        <span class="bead">iv</span>
-        <span class="ev-tag">The part that matters</span>
-        <h3>We introduce you, by name</h3>
-        <p>Three or four introductions over the evening, each one chosen for you. We bring you across, tell you both why we thought you should meet, and then leave you to it.</p>
-      </li>
-    </ol>
-
-    <div class="not-this">
-      <p>This is not speed dating, and it is not a room of strangers in name tags.</p>
-      <p class="after">Nothing runs on a timer, nobody rotates, and you never repeat your opening line to the whole room. The introductions are what you are paying for — the rest is a good bar on a good evening.</p>
-    </div>
-  </div>
-</section>
 
 <!-- ========================= GUEST WORDS ========================= -->
 <section class="words">
@@ -518,7 +523,7 @@
       </details>
       <details>
         <summary>How are the introductions made?</summary>
-        <p>From what you tell us about yourself on the night — a couple of minutes, in your own words. We work out who ought to meet whom and then make three or four introductions for you. It is done by hand, which is why the guest list stays short.</p>
+        <p>From what you tell us about yourself on the night — a couple of minutes, in your own words. We work out who ought to meet whom and then make three or four introductions for you. It is done by hand, which is why these evenings stay small and why admission is by invitation.</p>
       </details>
       <details>
         <summary>Is this speed dating?</summary>
